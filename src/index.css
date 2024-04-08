@@ -1,0 +1,61 @@
+/** @format */
+
+@font-face {
+  font-family: "WorkSans";
+  src: local("WorkSans"),
+    url(../src/Fonts/Work_Sans/WorkSans.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "WorkSans-Bold";
+  src: local("WorkSans-Bold"),
+    url(../src/Fonts/Work_Sans/WorkSans.ttf) format("truetype");
+}
+
+html {
+  scroll-padding-top: 110px;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Work Sans", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  /* font-family: "Work Sans"; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  --font-color-for-header: #1e1e1e;
+  --font-color-for-content: #000000;
+  --font-size-24px: 24px;
+  --font-size-16px: 14px;
+  --font-size-48px: 48px;
+  --font-size-16px: 16px;
+  --font-size-14px: 14px;
+  --font-weight-500: 500;
+  --font-weight-300: 300;
+  --font-weight-600: 600;
+  --font-size-32px: 32px;
+  --font-sytle-normal: normal;
+  --position-relative: relative;
+  --color-white: white;
+}
+
+
+.loading-spinner {
+  margin: auto !important;
+  position: relative;
+  right: 0;
+  left: 0;
+  top:0;
+  bottom: 0;
+  width: 25px !important;
+  height: 25px !important;
+}
+.sign_up_form .loading-spinner {
+  top: 12px;
+  position: relative;
+}
+.invalid-feedback {
+  font-size: 12px;
+}
